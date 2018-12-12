@@ -8,6 +8,8 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+//SnakeGame code provided by udemy.com(https://www.udemy.com/csharp-game-programming/learn/v4/t/lecture/10586064?start=137)
+
 namespace FinalProjectSnakeGame
 {
     public partial class snakeForm : Form
@@ -35,6 +37,9 @@ namespace FinalProjectSnakeGame
             public int y;
         }
         //initializing the enums and arrays and setting values to each
+
+       
+
         GameBoardFields[,] gameBoardField;
         SnakeCoordinates[] snakeXY;
         int snakeLength;
@@ -82,6 +87,11 @@ namespace FinalProjectSnakeGame
                 g.DrawImage(imgList1.Images[6], 385, i*35);// right begins at the coordinate 385 on the y axis
             }
 
+
+            
+            //code provided by udemy.com
+            
+
             //initial snake body and head start position using the strucures snake coordinates array. 
             snakeXY[0].x = 5;//head is starting directly in middle of the board and set coodinates to the middle
             snakeXY[0].y = 5;
@@ -107,13 +117,17 @@ namespace FinalProjectSnakeGame
             //sets up a for loop that set up the bonuses to randomly appear on the screen through a Bonus method
             for (int i = 0; i <4; i++)
             {
-                Bonus();//runs conus method
+                Bonus();//runs bonus method
             }
             
             
 
         }
+        
+        //code provided by udemy.com
+
         //bonus method that generates one of the 4 bonus images
+
         private void Bonus()
         {
             int x, y;
@@ -130,7 +144,8 @@ namespace FinalProjectSnakeGame
 
         }
 
-        
+        //i figured this part out, but structure provided by udemy.com
+
         //by sleecting the KeyDown event on the manager it automatically opens this method and adds
         //directions when each key is pressed
         private void frmSnakeKeyDown(object sender, KeyEventArgs e)
@@ -158,6 +173,8 @@ namespace FinalProjectSnakeGame
                 timer.Enabled = false;
                 MessageBox.Show("GAME OVER");
             }
+
+        //code provided by udemy.com
 
         private void Timer_Tick(object sender, EventArgs e)
         { //deletes the end of the snake
@@ -193,6 +210,9 @@ namespace FinalProjectSnakeGame
             }
 
             //we now need to check to see if we hit a wall.
+            
+            //code provided by udemy.com
+
             if (snakeXY[0].x < 1 || snakeXY[0].x > 10 || snakeXY[0].y < 1 || snakeXY[0].y > 10)
             {
                 GameOver();
@@ -222,6 +242,7 @@ namespace FinalProjectSnakeGame
                 }
 
             //draw the head
+            //code provided by udemy.com
             g.DrawImage(imgList1.Images[5], snakeXY[0].x * 35, snakeXY[0].y * 35);
             gameBoardField[snakeXY[0].x, snakeXY[0].y] = GameBoardFields.Snake;
 
