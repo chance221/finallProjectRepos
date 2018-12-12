@@ -1,0 +1,10 @@
+C:\Users\cjkel\source\repos\FinalProjectSnakeGame\FinalProjectSnakeGame\bin\Debug\FinalProjectSnakeGame.exe.config
+C:\Users\cjkel\source\repos\FinalProjectSnakeGame\FinalProjectSnakeGame\bin\Debug\FinalProjectSnakeGame.exe
+C:\Users\cjkel\source\repos\FinalProjectSnakeGame\FinalProjectSnakeGame\bin\Debug\FinalProjectSnakeGame.pdb
+C:\Users\cjkel\source\repos\FinalProjectSnakeGame\FinalProjectSnakeGame\obj\Debug\FinalProjectSnakeGame.csprojAssemblyReference.cache
+C:\Users\cjkel\source\repos\FinalProjectSnakeGame\FinalProjectSnakeGame\obj\Debug\FinalProjectSnakeGame.snakeForm.resources
+C:\Users\cjkel\source\repos\FinalProjectSnakeGame\FinalProjectSnakeGame\obj\Debug\FinalProjectSnakeGame.Properties.Resources.resources
+C:\Users\cjkel\source\repos\FinalProjectSnakeGame\FinalProjectSnakeGame\obj\Debug\FinalProjectSnakeGame.csproj.GenerateResource.cache
+C:\Users\cjkel\source\repos\FinalProjectSnakeGame\FinalProjectSnakeGame\obj\Debug\FinalProjectSnakeGame.csproj.CoreCompileInputs.cache
+C:\Users\cjkel\source\repos\FinalProjectSnakeGame\FinalProjectSnakeGame\obj\Debug\FinalProjectSnakeGame.exe
+C:\Users\cjkel\source\repos\FinalProjectSnakeGame\FinalProjectSnakeGame\obj\Debug\FinalProjectSnakeGame.pdb
